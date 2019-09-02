@@ -225,7 +225,28 @@ header .scrolldown a {
 
 header .scrolldown a:hover { color: #11ABB0; }
 
+#m-nav ul, #m-nav li, #m-nav a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
 
+#m-nav {
+   font: 12px 'Open Sans', sans-serif;
+   font-weight: 700;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+}
+.opaque { background-color: #333; }
+
+#m-nav > a.mobile-btn { display: none; }
 
 ul#nav {
    min-height: 48px;
